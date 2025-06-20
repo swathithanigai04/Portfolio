@@ -1,18 +1,17 @@
-# Portfolio
-Project Overview
+### Project Overview
 
 This project combines **quantitative finance** with **machine learning** to build a complete system for **portfolio optimization, stock trend forecasting, and gain/loss classification** using real stock market data.
 
 We leverage 20 years of historical data from 42 companies to identify optimal asset allocations, predict future price trends, and classify future gains/losses — offering a hybrid framework that merges **traditional finance models** with **modern AI techniques**.
 
-Objectives
+### Objectives
 
 * Optimize portfolio weights to **maximize return** and **minimize risk**.
 * Predict future **stock price movements** using regression models.
 * Classify stocks as **gain/loss** using classification algorithms.
 * Evaluate all strategies with financial and ML metrics for performance comparison.
 
-Technologies Used
+### Technologies Used
 
 * **Programming Language**: Python
 * **Data Collection**: yfinance
@@ -42,7 +41,7 @@ Technologies Used
   * MAE, RMSE (for regression)
   * Accuracy, Precision, Recall, F1-Score (for classification)
 
-Workflow
+### Workflow
 
 1. **Data Preparation**
 
@@ -70,20 +69,16 @@ Workflow
 
    * Predict if a stock will have a gain or loss using LR, SVM, RF, and XGBoost.
 
-Results
+### Results
 
 * **MSR Portfolio** yielded the highest cumulative return (\~49.6%).
 * **Genetic Algorithm** optimized Sharpe Ratio effectively.
 * **XGBoost & Random Forest** gave strong predictions with low RMSE and MAE.
 * **Tuned Logistic Regression and SVM** achieved classification accuracy > 93%.
 
-Key Highlights
+### Key Highlights
 
 * End-to-end financial ML pipeline.
 * Hybrid methodology combining finance and machine learning.
 * Real data from Yahoo Finance ensures practical applicability.
 * Scalable for dynamic rebalancing or real-time deployment in the future.
-
----
-
-Let me know if you'd like a shorter version or if you want this split into `README.md` sections like Installation, Usage, or Results.
