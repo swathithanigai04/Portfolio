@@ -1,6 +1,4 @@
 # Portfolio
-Hybrid Portfolio Optimization and Market Prediction using Machine Learning and Statistical Models
-
 Project Overview
 
 This project combines **quantitative finance** with **machine learning** to build a complete system for **portfolio optimization, stock trend forecasting, and gain/loss classification** using real stock market data.
